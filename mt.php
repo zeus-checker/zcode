@@ -1,4 +1,3 @@
-<?php
 function check($em, $pass)
 {
 	$ua = \Campo\UserAgent::random(array("agent_type" => "Browser", "os_type" => "Android"));
